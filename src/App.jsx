@@ -1,4 +1,4 @@
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { Route, HashRouter as Router, Switch } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import { AppProvider } from './hooks/index';
 import { Dashboard } from './pages/Dashboard/index';

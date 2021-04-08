@@ -1,11 +1,13 @@
 {
   "name": "studos",
+  "home": "https://raquelgruppi.github.io/Challenge-Studos/",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "dev": "webpack serve",
-    "build": "cross-env NODE_ENV=production webpack"
+    "build": "cross-env NODE_ENV=production webpack",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -34,6 +36,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^5.3.1",
     "node-sass": "^5.0.0",
     "prettier": "^2.2.1",
