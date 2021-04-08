@@ -40,6 +40,7 @@ export const useStyles = createUseStyles({
       margin: '0.22rem 0',
       padding: '0.66rem 1rem',
       fontSize: '1.4rem',
+      transition: 'border 1s',
 
       '@media (min-width: 1080px)': {
         fontSize: '1.03rem',
