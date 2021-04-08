@@ -1,0 +1,43 @@
+export const lightTheme = {
+  warning: '#E65353',
+  cardLightBlue: '#339CF7',
+  cardDarkBlue: '#2555EF',
+  cardOrange: '#EF8A24',
+  cardCyan: '#02C7C7',
+  text: '#FFFFFF',
+  textHighlight: '#339CF7',
+
+  backgroundPrimary: '#FFFFFF',
+  backgroundSecondary: '#DCECFA',
+  title: '#414042',
+  footer: '#A7A9AB',
+  footerHover: '#414042',
+  toggle: '#C4C4C4',
+  searchBoxBackground: '#F8F8F8',
+  searchBoxBorder: '#D5D5D5',
+  searchBoxPlaceholder: '#7F8182',
+  itemShadow: '#C4C4C4',
+  cardShadow: '#7F8182',
+};
+
+export const darkTheme = {
+  warning: '#E65353',
+  cardLightBlue: '#339CF7',
+  cardDarkBlue: '#2555EF',
+  cardOrange: '#EF8A24',
+  cardCyan: '#02C7C7',
+  text: '#FFFFFF',
+  textHighlight: '#339CF7',
+
+  backgroundPrimary: '#3B3B3B',
+  backgroundSecondary: '#282829',
+  title: '#FFFFFF',
+  footer: '#FFFFFF',
+  footerHover: '#339CF7',
+  toggle: '#339CF7',
+  searchBoxBackground: '#313233',
+  searchBoxBorder: '#212021',
+  searchBoxPlaceholder: '#D5D5D5',
+  itemShadow: '#313233',
+  cardShadow: '#474747',
+};
